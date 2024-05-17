@@ -123,7 +123,7 @@ group :test do
   gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-sidekiq', '~> 3.1'
   gem 'simplecov', '~> 0.21', require: false
-  gem 'webmock', '~> 3.12'
+  gem 'webmock', '~> 3.13', '>= 3.13.0'
   gem 'parallel_tests', '~> 3.6'
   gem 'rspec_junit_formatter', '~> 0.4'
 end
@@ -137,8 +137,8 @@ group :development do
   gem 'letter_opener', '~> 1.7'
   gem 'letter_opener_web', '~> 1.4'
   gem 'memory_profiler'
-  gem 'rubocop', '~> 1.12', require: false
-  gem 'rubocop-rails', '~> 2.9', require: false
+  gem 'rubocop', '~> 1.13', '>= 1.13.0', require: false
+  gem 'rubocop-rails', '~> 2.10', '>= 2.10.0', require: false
   gem 'brakeman', '~> 5.0', require: false
   gem 'bundler-audit', '~> 0.8', require: false
 
